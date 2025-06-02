@@ -1,0 +1,38 @@
+# Node modules — huge, auto-generated
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment files — usually contains secrets
+.env
+.env.local
+.env.*.local
+
+# Optional runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build and cache
+dist/
+build/
+.cache/
+coverage/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Debug tools
+*.tgz
+.nyc_output/
