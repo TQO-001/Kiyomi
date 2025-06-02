@@ -38,7 +38,7 @@ async function loadStudents() {
                 <td><input value="${student.S_MAIL}"></td>
                 <td>
                     <button class="edit" onclick="updateStudent(${student.ID}, this)">Update</button>
-                    <button class="delete" onclick="deleteStudent(${student.ID}, this)"></button>
+                    <button class="delete" onclick="deleteStudent(${student.ID}, this)">Delete</button>
                 </td>
             `;
             tbody.appendChild(row);
